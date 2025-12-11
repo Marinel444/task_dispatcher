@@ -10,6 +10,7 @@ class Worker(models.Model):
     def __str__(self):
         return self.name
 
+
 task_status = (
     ("pending", "Pending"),
     ("in_progress", "In progress"),
